@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internship Programs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <h3>Web Development Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: N/A -</li>
+        <li>Start date: 10/06/2025</li>
+      </ul>
+      <a class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>App Development Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: N/A -</li>
+        <li>Start date: 15/06/2025</li>
+      </ul>
+      <a class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>Python Programming Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: N/A -</li>
+        <li>Start date: 09/06/2025</li>
+      </ul>
+      <a class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>Java Programming Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: N/A -</li>
+        <li>Start date: 17/07/2025</li>
+      </ul>
+      <a class="btn">View Details</a>
+    </div>
+  </div>
+</body>
+</html>
+
+//css
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 260px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.card ul {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+.btn:hover {
+    cursor: pointer;
+}
